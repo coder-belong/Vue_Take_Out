@@ -1,0 +1,149 @@
+.icon-back-line {
+    position: relative;
+    font-size: 25px;
+    top: 10px;
+    left: 10px;
+}
+
+section {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #02a774;
+    text-align: center;
+}
+
+/* 登录方式 */
+section .login-methods {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #666;
+}
+
+section .login-methods .note-login {
+    margin-right: 50px;
+}
+
+section .login-methods .note-login,
+section .login-methods .pwd-login {
+    padding-bottom: 5px;
+}
+
+section .login-methods .active {
+    font-size: 15px;
+    color: #02a774;
+    border-bottom: 2px solid #02a774;
+    font-weight: bold;
+}
+
+/* 登录区域 (表单区域) */
+.login-content .pwd-login-content input,
+.note-login-content input {
+    width: 90%;
+    height: 45px;
+    padding-left: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    margin-top: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.login-content .pwd-login-content input::placeholder,
+.note-login-content input::placeholder {
+    font-size: 14px;
+}
+
+.login-content .pwd-login-content input:focus,
+.note-login-content input:focus {
+    /* outline: 1px solid #02a774 !important; */
+    box-shadow: 0 0 5px #02a774;
+    outline: none;
+}
+
+.login-content .pwd-login-content>button,
+.note-login-content>button {
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    margin-top: 30px;
+    background-color: rgb(76, 217, 111);
+    border: none;
+    border-radius: 7px;
+}
+
+.note-login-content .tip {
+    width: 90%;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 20px;
+    color: #999999;
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+.note-login-content .about {
+    font-size: 14px;
+    color: #999999;
+    margin-top: 20px;
+}
+
+.note-login-content .phone {
+    position: relative;
+}
+
+.note-login-content .phone .get-code {
+    position: absolute;
+    top: 47%;
+    right: 30px;
+    font-size: 14px;
+    border: none;
+    background-color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+.pwd-login-content .pwd {
+    position: relative;
+}
+
+.pwd-login-content .pwd .icon {
+    position: absolute;
+    top: 47%;
+    right: 30px;
+    font-size: 18px;
+}
+
+.pwd-login-content .captcha {
+    position: relative;
+}
+
+.pwd-login-content .captcha img {
+    position: absolute;
+    top: 24%;
+    right: 30px;
+    width: 120px;
+    height: 50px;
+}
+
+
+/* 移动端清除表单默认样式 */
+input{
+    text-indent: 0;
+    background: transparent;
+    border: 0 none;
+    resize:none; 
+    outline:none;  /*清除选中效果的默认蓝色边框 */
+    -webkit-appearance:none;  /*清除浏览器默认的样式 */
+    line-height: normal;  
+} 
+
