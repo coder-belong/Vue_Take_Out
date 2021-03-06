@@ -5,6 +5,7 @@
 - server 硅谷外卖后台
 
 - test  接口测试
+- 预览地址：http://www.timecrush.cn:8014
 
     
 
@@ -84,7 +85,7 @@ app.listent(4000)
 
 
 
-###启动前台项目
+### 启动前台项目
 
 ```
 npm start
