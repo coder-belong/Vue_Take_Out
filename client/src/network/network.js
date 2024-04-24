@@ -11,7 +11,6 @@ import 'nprogress/nprogress.css'
 
 function myaxios(opations) {
     const instance = axios.create({
-        baseURL: 'http://timecrush.cn:8887',
         
         // 坑：URL必须写服务器主机的IPV4地址，否则移动端访问不到接口
         // baseURL: 'http://192.168.2.150:4000',
