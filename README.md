@@ -4,9 +4,6 @@
 
 - server 硅谷外卖后台
 
-- test  接口测试
-- 预览地址：http://www.timecrush.cn:8014
-
     
 
 ## 技术参考
